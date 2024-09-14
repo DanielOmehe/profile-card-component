@@ -134,3 +134,41 @@ hr{
     letter-spacing: .2rem;
 }
 
+.attribution{
+    width: 100%;
+    padding: 1rem 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+.attribution a{
+    color: black;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 375px){
+    .profile-card-wrapper{
+        padding: 1rem;
+    }
+
+    .pattern-top{
+        width: 650px;
+        height: 800px;
+        top: -70%;
+        left: -120%;
+        background-size: contain;
+    }
+
+    .pattern-bottom{
+        width: 650px;
+        height: 650px;
+        bottom: -50%;
+        right: -100%;
+        background-size: contain;
+    }
+
+    .attribution{
+        font-size: 1rem;
+        padding: 1rem;
+    }
+}
